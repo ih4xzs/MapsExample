@@ -24,6 +24,8 @@
 		39383C1918E4F02900180F68 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39383BF118E4F02800180F68 /* Foundation.framework */; };
 		39383C2118E4F02900180F68 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 39383C1F18E4F02900180F68 /* InfoPlist.strings */; };
 		39383C2418E4F02900180F68 /* MapExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 39383C2318E4F02900180F68 /* MapExampleTests.m */; };
+		39383C2F18E4F11B00180F68 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39383C2E18E4F11B00180F68 /* SecondViewController.m */; };
+		39383C3118E4F13F00180F68 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39383C3018E4F13F00180F68 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +62,9 @@
 		39383C2018E4F02900180F68 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		39383C2218E4F02900180F68 /* MapExampleTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MapExampleTests.h; sourceTree = "<group>"; };
 		39383C2318E4F02900180F68 /* MapExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapExampleTests.m; sourceTree = "<group>"; };
+		39383C2D18E4F11B00180F68 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SecondViewController.h; path = ../SecondViewController.h; sourceTree = "<group>"; };
+		39383C2E18E4F11B00180F68 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SecondViewController.m; path = ../SecondViewController.m; sourceTree = "<group>"; };
+		39383C3018E4F13F00180F68 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39383C3118E4F13F00180F68 /* MapKit.framework in Frameworks */,
 				39383BF018E4F02800180F68 /* UIKit.framework in Frameworks */,
 				39383BF218E4F02800180F68 /* Foundation.framework in Frameworks */,
 				39383BF418E4F02800180F68 /* CoreGraphics.framework in Frameworks */,
@@ -89,6 +95,7 @@
 		39383BE318E4F02800180F68 = {
 			isa = PBXGroup;
 			children = (
+				39383C3018E4F13F00180F68 /* MapKit.framework */,
 				39383BF518E4F02800180F68 /* MapExample */,
 				39383C1C18E4F02900180F68 /* MapExampleTests */,
 				39383BEE18E4F02800180F68 /* Frameworks */,
@@ -119,6 +126,8 @@
 		39383BF518E4F02800180F68 /* MapExample */ = {
 			isa = PBXGroup;
 			children = (
+				39383C2D18E4F11B00180F68 /* SecondViewController.h */,
+				39383C2E18E4F11B00180F68 /* SecondViewController.m */,
 				39383BFE18E4F02800180F68 /* AppDelegate.h */,
 				39383BFF18E4F02800180F68 /* AppDelegate.m */,
 				39383C0718E4F02900180F68 /* MainStoryboard_iPhone.storyboard */,
@@ -277,6 +286,7 @@
 				39383BFC18E4F02800180F68 /* main.m in Sources */,
 				39383C0018E4F02800180F68 /* AppDelegate.m in Sources */,
 				39383C0F18E4F02900180F68 /* ViewController.m in Sources */,
+				39383C2F18E4F11B00180F68 /* SecondViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
